@@ -1,0 +1,70 @@
+html, body {
+    height:100%;
+    color: #BCC6CC;
+} 
+
+body{
+	background-color: #0e181a;
+	background-image: url('https://inspirationseek.com/wp-content/uploads/2014/05/UEFA-Champions-League.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+	/*background: url('../images/background.jpg');
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;*/
+}
+
+header{
+	margin-bottom: 20px;
+}
+
+@font-face {
+  font-family: MyHelvetica;
+  src: local("Helvetica Neue Bold"),
+       local("HelveticaNeue-Bold"),
+       url(Champions-Bold);
+  font-weight: bold;
+}
+
+.btn-primary,.reset{
+	background-color: #BCC6CC;
+	color: white;
+	font-family: 'MyHelvetica', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 150px;
+}
+.btn-primary:hover, .reset:hover{
+	background-color: #202364;
+}
+
+.container{
+	margin-top: 150px;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+
+h2, #message, #finalMessage{
+	font-family: MyHelvetica;
+
+}
+
+.thisChoice:hover{
+	background-color: #202364;
+	color: white;
+	padding: 10px;
+}
+
+#pic{
+	margin: 30px;
+}
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+}
